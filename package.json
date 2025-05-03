@@ -1,0 +1,21 @@
+{
+  "name": "harrypotter",
+  "version": "1.0.0",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "start:open": "parcel --open",
+    "build": "npm run clear && parcel build",
+    "clear": "rimraf dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "parcel": "^2.14.4"
+  },
+  "dependencies": {
+    "rimraf": "^6.0.1"
+  }
+}
