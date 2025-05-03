@@ -1,4 +1,4 @@
-[⚠️ Suspicious Content] # KeepCoding Web Bootcamp XVIII - Frontend PRO
+# KeepCoding Web Bootcamp XVIII - Frontend PRO
 
 <div align="center">
     <img src="https://keepcoding.io/wp-content/uploads/2024/11/Logo-kc237.svg" alt="KeepCoding Web Bootcamp XV - Frontend PRO">
