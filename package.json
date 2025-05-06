@@ -5,7 +5,7 @@
   "scripts": {
     "start": "parcel",
     "start:open": "parcel --open",
-    "build": "npm run clear && parcel build",
+    "build": "npm run clear && parcel build --no-source-maps",
     "clear": "rimraf dist"
   },
   "keywords": [],
