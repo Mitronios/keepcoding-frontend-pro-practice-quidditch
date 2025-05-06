@@ -1,7 +1,7 @@
 @import "./_config.css";
 
 section#hero {
-    background-image: url("../img/header.jpg");
+    background-image: url("../img/header.jpg?as=webp&quality=80&width=1920");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
