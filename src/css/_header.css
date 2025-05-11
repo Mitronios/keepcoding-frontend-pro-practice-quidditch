@@ -1,126 +1,126 @@
 .navbar {
-    width: 100%;
-    box-shadow: 0 1px 4px rgb(146 161 176 / 65%);
+  width: 100%;
+  box-shadow: 0 1px 4px rgb(146 161 176 / 65%);
 }
 
 .navbar .menu-items {
-    position: fixed;
-    top: 0;
-    left: 0;
-    padding-top: 180px;
-    height: 100vh;
-    width: 100%;
-    z-index: 99;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    background-color: rgb(47, 70, 92, .95);
-    box-shadow: inset 0 0 2000px rgb(255, 255, 255, .5);
-    /* hide items */
-    transform: translateX(-101%);
-    transition: transform 0.5s ease-in-out;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 180px;
+  height: 100vh;
+  width: 100%;
+  z-index: 99;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgb(47, 70, 92, .95);
+  box-shadow: inset 0 0 2000px rgb(255, 255, 255, .5);
+  /* hide items */
+  transform: translateX(-101%);
+  transition: transform 0.5s ease-in-out;
 }
 
 .navbar-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-    height: 78px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  height: 78px;
 }
 
 .navbar-container .menu-items {
-    display: flex;
+  display: flex;
 }
 
 .navbar .menu-items li {
-    list-style: none;
-    margin-bottom: 1.2rem;
-    font-size: 1.5rem;
-    font-weight: 500;
+  list-style: none;
+  margin-bottom: 1.2rem;
+  font-size: 1.5rem;
+  font-weight: 500;
 }
 
 .navbar-link {
-    @apply text-gold font-title tracking-[0.5rem] hover:font-bold;
+  @apply text-gold font-title tracking-[0.5rem] hover:font-bold;
 }
 
 .burguer-wrapper {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .checkbox {
-    position: absolute;
-    display: block;
-    height: 40px;
-    width: 40px;
-    top: 0px;
-    left: 0px;
-    opacity: 0;
-    cursor: pointer;
-    z-index: 99999;
+  position: absolute;
+  display: block;
+  height: 40px;
+  width: 40px;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 99999;
 }
 
 .burguer-lines {
-    height: 34px;
-    width: 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    z-index: 9999;
+  height: 34px;
+  width: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 9999;
 }
 
 .burguer-lines .line {
-    display: block;
-    height: 4px;
-    width: 100%;
-    border-radius: 10px;
-    background: #0e2431;
+  display: block;
+  height: 4px;
+  width: 100%;
+  border-radius: 10px;
+  background: #0e2431;
 }
 
 .burguer-lines line1 {
-    transform-origin: 0% 0%;
-    transition: transform 0.4s ease-in-out;
+  transform-origin: 0% 0%;
+  transition: transform 0.4s ease-in-out;
 }
 
 .burguer-lines line2 {
-    transition: transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
 }
 
 .burguer-lines line1 {
-    transform-origin: 0% 100%;
-    transition: transform 0.4s ease-in-out;
+  transform-origin: 0% 100%;
+  transition: transform 0.4s ease-in-out;
 }
 
 .logo {
-    display: flex;
-    align-items: center;
-    height: 100%;
+  display: flex;
+  align-items: center;
+  height: 100%;
 }
 
 .logo img {
-    max-height: 80px;
-    width: auto;
+  max-height: 80px;
+  width: auto;
 }
 
 input[type="checkbox"]:checked~.menu-items {
-    transform: translateX(0);
+  transform: translateX(0);
 }
 
 input[type="checkbox"]:checked~.burger-lines .line1 {
-    transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 input[type="checkbox"]:checked~.burger-lines .line2 {
-    transform: scaleY(0);
+  transform: scaleY(0);
 }
 
 input[type="checkbox"]:checked~.burger-lines .line3 {
-    transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 input[type="checkbox"]:checked~.logo {
-    display: none;
+  display: none;
 }
