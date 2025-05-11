@@ -33,6 +33,38 @@
 		<link rel="stylesheet" href="css/home.css" />
 	</head>
 	<body>
+		<header>
+			<nav>
+				<div class="navbar">
+					<div class="container navbar-container">
+						<div class="logo">
+							<a href="/">
+								<img src="img/logo.png?as=webp" alt="Quidditch Games XVIII" />
+							</a>
+						</div>
+						<!-- Burguer menu -->
+						<div class="burguer-wrapper">
+							<input type="checkbox" class="checkbox" name="" id="" />
+							<div class="burguer-lines">
+								<span class="line line1"></span>
+								<span class="line line2"></span>
+								<span class="line line3"></span>
+							</div>
+							<div class="menu-items">
+								<li>
+									<a class="navbar-link" href="/">Home</a>
+								</li>
+								<li><a class="navbar-link" href="./teams.html">Team</a></li>
+								<li>
+									<a class="navbar-link" href="./contact.html">Contact</a>
+								</li>
+							</div>
+						</div>
+						<!-- fullscreen menu -->
+					</div>
+				</div>
+			</nav>
+		</header>
 		<section id="hero" class="py-[220px]">
 			<h1 class="page-title">Quidditch Champions XVIII</h1>
 		</section>
@@ -108,7 +140,11 @@
 		<footer class="flex items-center flex-col bg-bg py-[1rem]">
 			<img src="img/logo.png?as=webp" alt="Quidditch Games XVIII" />
 			<span class="font-common"
-				>&copy;&nbsp;KeepCoding - 2025 all rights reserved</span
+				>&copy;&nbsp;KeepCoding -
+				<script>
+					document.write(new Date().getFullYear());
+				</script>
+				all rights reserved</span
 			>
 			<div class="flex felx-row my-4 gap-6">
 				<a href="https://www.facebook.com/">
