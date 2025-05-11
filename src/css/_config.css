@@ -2,6 +2,7 @@
 
 @theme {
   --color-gold: rgb(202, 172, 0);
+  --color-bg: #f0f0f0;
   --font-title: 'Poltawski Nowy', serif;
   --font-common: 'Public Sans', sans-serif;
 }
