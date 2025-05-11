@@ -5,11 +5,20 @@
   --color-bg: #f0f0f0;
   --font-title: 'Poltawski Nowy', serif;
   --font-common: 'Public Sans', sans-serif;
+  --card-shadow: 0 35px 35px rgba(0, 0, 0, 0.25);
 }
 
 @utility container {
   margin-inline: auto;
   padding-inline: 2rem;
+}
+
+section#hero {
+  background-image: url("../img/header.jpg?as=webp&quality=80&width=1920");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  filter: brightness(0.7);
 }
 
 .page-title {
