@@ -4,3 +4,7 @@
 .house-card {
     @apply flex flex-col w-full md:w-[40%] text-center p-[1rem] rounded-md shadow-[--card-shadow];
 }
+
+.house-character {
+    @apply w-[3rem] h-[3rem] rounded-full overflow-hidden
+}

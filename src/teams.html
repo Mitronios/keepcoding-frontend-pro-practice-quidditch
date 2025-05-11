@@ -67,7 +67,7 @@
 		<section id="hero" class="py-[220px]">
 			<h1 class="page-title">Quidditch Champions XVIII</h1>
 		</section>
-		<section class="container py-8">
+		<section id="teams" class="container py-8">
 			<h2
 				class="uppercase font-title text-center text-lg tracking-[0.5rem] mb-6"
 			>
@@ -75,21 +75,25 @@
 			</h2>
 
 			<div class="flex justify-between items-center flex-wrap text-center">
-				<div class="house-card">
+				<div class="house-card" id="gryffindor">
 					<img class="margin-auto" src="./teams/1.webp" alt="Gryffindor" />
-					<h3 class="font-title">Gryffindor</h3>
+					<h3 class="font-title">Team of house Gryffindor</h3>
+					<div class="flex gap-1 justify-center"></div>
 				</div>
-				<div class="house-card">
-					<img class="margin-auto" src="./teams/2.webp" alt="Hufflepuff" />
-					<h3 class="font-title">Hufflepuf</h3>
+				<div class="house-card" id="slytherin">
+					<img class="margin-auto" src="./teams/2.webp" alt="Slytherin" />
+					<h3 class="font-title">Team of house Slytherin</h3>
+					<div class="flex gap-1 justify-center"></div>
 				</div>
-				<div class="house-card">
-					<img class="margin-auto" src="./teams/3.webp" alt="Slytherin" />
-					<h3 class="font-title">Slytherin</h3>
+				<div class="house-card" id="hufflepuff">
+					<img class="margin-auto" src="./teams/3.webp" alt="Hufflepuff" />
+					<h3 class="font-title">Team of house Hufflepuff</h3>
+					<div class="flex gap-1 justify-center"></div>
 				</div>
-				<div class="house-card">
+				<div class="house-card" id="ravenclaw">
 					<img class="margin-auto" src="./teams/4.webp" alt="Ravenclaw" />
-					<h3 class="font-title">Ravenclaw</h3>
+					<h3 class="font-title">Team of house Ravenclaw</h3>
+					<div class="flex gap-1 justify-center"></div>
 				</div>
 			</div>
 		</section>
@@ -141,6 +145,6 @@
 				</a>
 			</div>
 		</footer>
-		<script src="./lib/houses/index.ts"></script>
+		<script type="module" src="./lib/houses/index.ts"></script>
 	</body>
 </html>
